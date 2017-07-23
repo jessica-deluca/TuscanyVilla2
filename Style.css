@@ -29,7 +29,7 @@ span.icon-bar {
     background-image: url('Images/tuscany-villas-sant-anna.jpg');
     background-size: cover;
     margin-bottom: 0px;
-    padding-bottom: 200px;/*when I put padding here, the image is not responsive; when i remove, the entire image does not show in all image sizes*/
+    padding-bottom: 196px;/*when I put padding here, the image is not responsive; when i remove, the entire image does not show in all image sizes*/
 }
 
 h1#headerText {
