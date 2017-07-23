@@ -16,8 +16,47 @@ nav#navvy.navbar.navbar-static-top {
 }
 
 button.navbar-toggle {
-    border:1px solid #E8F8FC;
+    border:1px solid #FBFFFF;
 }
 
 span.icon-bar {
-    border:1px solid #E8F8FC;
+    border: 1px solid #FBFFFF;
+}
+
+/*JUMBOTRON SECTION*/
+
+.mainSec {
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
+    margin-bottom: 0px;
+    padding-bottom: 200px;/*when I put padding here, the image is not responsive; when i remove, the entire image does not show in all image sizes*/
+}
+
+h1#headerText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p#headerSubText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-bottom: 0px;
+}
+
+.mapSec {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.col-md-9 { /*why can't i put .row.topHeader.col-md-9 here??*/
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.col-md-3 { /*why can't i put .row.topHeader.col-md-3 here??*/
+    padding-right: 0px;
+    padding-left: 0px;
+}
