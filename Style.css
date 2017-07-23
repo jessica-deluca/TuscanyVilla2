@@ -1,1 +1,23 @@
-﻿
+﻿/*NAVBAR STYLING*/
+
+#logoIMG {
+    width:90px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+nav#navvy.navbar.navbar-static-top {
+    margin-bottom:0px;
+    background-color:#474E5D;
+}
+
+#navvy a {
+    color:#FBFFFF;
+}
+
+button.navbar-toggle {
+    border:1px solid #E8F8FC;
+}
+
+span.icon-bar {
+    border:1px solid #E8F8FC;
