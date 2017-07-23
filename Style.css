@@ -243,3 +243,30 @@ p#locationSubText {
 .location3Button:hover {
     color:#FBFFFF;
 }
+
+/*AMMENITIES SECTION*/
+
+/*AMMENITIES HEADER*/
+
+.ammenitiesHeader {
+    background-color:#474E5D;
+    padding-top: 30px;
+}
+
+h1#ammenitiesHeaderText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p#ammenitiesSubText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-bottom: 0px;
+    border-bottom-width: 30px;
+    padding-bottom: 30px;
+}
+
+/*AMMENITIES LIST*/
+
