@@ -29,7 +29,7 @@ span.icon-bar {
     background-image: url('Images/tuscany-villas-sant-anna.jpg');
     background-size: cover;
     margin-bottom: 0px;
-    padding-bottom: 200px;/*when I put padding here, the image is not responsive; when i remove, the entire image does not show in all image sizes*/
+    padding-bottom: 196px;/*when I put padding here, the image is not responsive; when i remove, the entire image does not show in all image sizes*/
 }
 
 h1#headerText {
@@ -59,4 +59,187 @@ p#headerSubText {
 .col-md-3 { /*why can't i put .row.topHeader.col-md-3 here??*/
     padding-right: 0px;
     padding-left: 0px;
+}
+
+/*LOCATIONS SECTION*/
+
+/*LOCATIONS HEADER*/
+
+.locationHeader {
+    background-color:#474E5D;
+    padding-top: 30px;
+}
+
+h1#locationHeaderText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p#locationSubText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-bottom: 0px;
+    border-bottom-width: 30px;
+    padding-bottom: 30px;
+}
+
+/*LOCATION 1*/
+
+.row.location1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.row.location1.col-xs-12 col-sm-7 col-md-7 col-lg-7 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row.location1.col-xs-12 col-sm-5 col-md-5 col-lg-5 {
+    padding-left: 50px;
+    padding-right: 0px;
+
+}
+
+#location1Image {
+    width: 400px;
+    float: right;
+}
+
+.location1Button {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.location1Button:hover {
+    color:#FBFFFF;
+}
+
+/*LOCATION 2*/
+
+.row.location2 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#474E5D;
+}
+
+.row.location2.col-xs-12 col-sm-5 col-md-5 col-lg-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row.location2.col-xs-12 col-sm-7 col-md-7 col-lg-7 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#location2Image {
+    width: 400px;
+    float: left;
+}
+
+#location2Text {
+    color:#FBFFFF;
+}
+
+.location2Button {
+    background-color:#FBFFFF;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#474E5D;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.location2Button:hover {
+    color:#474E5D;
+}
+
+/*LOCATION 3*/
+
+.row.location3 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.row.location3.col-xs-12 col-sm-7 col-md-7 col-lg-7 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row.location3.col-xs-12 col-sm-5 col-md-5 col-lg-5 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#location3Image {
+    width: 400px;
+    float: right;
+}
+
+.location3Button {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.location3Button:hover {
+    color:#FBFFFF;
 }
