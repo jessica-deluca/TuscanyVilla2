@@ -624,8 +624,8 @@ p#reviewsSubText {
 }
 
 .item {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .carousel-indicators li {
@@ -644,4 +644,76 @@ p#reviewsSubText {
 
 .glyphicon-chevron-right {
     color:#474E5D;
+}
+
+/*CONTACT SECTION*/
+
+/*CONTACT HEADER*/
+
+.contactHeader {
+    background-color:#474E5D;
+    padding-top: 30px;
+
+}
+
+h1#contactHeaderText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p#contactSubText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-bottom: 0px;
+    border-bottom-width: 30px;
+    padding-bottom: 30px;
+}
+
+/*CONTACT INFO & FORM SECTION*/
+
+.row.contact {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.glyphicon-map-marker {
+    color:#474E5D;
+}
+
+.glyphicon-phone {
+    color:#474E5D;
+}
+
+.glyphicon-envelope {
+    color:#474E5D;
+}
+
+.submitForm {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    float:right;
+}
+
+.submitForm:hover {
+    color:#FBFFFF;
 }
