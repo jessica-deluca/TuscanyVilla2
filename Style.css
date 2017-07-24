@@ -717,3 +717,19 @@ p#contactSubText {
 .submitForm:hover {
     color:#FBFFFF;
 }
+
+/*FOOTER SECTION*/
+
+.footer {
+    background-color:#474E5D;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p#footerText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-bottom: 0px;
+    border-bottom-width: 30px;
+    padding-bottom: 15px;
+}
