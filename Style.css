@@ -585,4 +585,63 @@ p#ammenitiesSubText {
     color:#FBFFFF;
 }
 
+/*REVIEWS SECTION*/
 
+/*REVIEWS HEADER*/
+
+.reviewsHeader {
+    background-color:#474E5D;
+    padding-top: 30px;
+
+}
+
+h1#reviewsHeaderText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p#reviewsSubText {
+    text-align:center;
+    color:#FBFFFF;
+    margin-bottom: 0px;
+    border-bottom-width: 30px;
+    padding-bottom: 30px;
+}
+
+/*CAROUSEL*/
+
+#quote {
+    color:#000000;
+    font-style:italic;
+    text-align:center;
+}
+
+#quoteReference {
+    color:#000000;
+    text-align:center;
+}
+
+.item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    background-color: #474E5D;
+    box-shadow: #474E5D;    
+}
+
+.carousel-indicators .active {
+    background-color:#474E5D;
+}
+
+.glyphicon-chevron-left {
+    color:#474E5D;
+}
+
+.glyphicon-chevron-right {
+    color:#474E5D;
+}
