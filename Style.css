@@ -29,7 +29,7 @@ span.icon-bar {
     background-image: url('Images/tuscany-villas-sant-anna.jpg');
     background-size: cover;
     margin-bottom: 0px;
-    padding-bottom: 196px;/*when I put padding here, the image is not responsive; when i remove, the entire image does not show in all image sizes*/
+    padding-bottom: 196px;/*when I put padding here, the image is not fully responsive when small; when i remove padding, the entire image does not show in large screen sizes???*/
 }
 
 h1#headerText {
@@ -49,16 +49,6 @@ p#headerSubText {
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-}
-
-.col-md-9 { /*why can't i put .row.topHeader.col-md-9 here??*/
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.col-md-3 { /*why can't i put .row.topHeader.col-md-3 here??*/
-    padding-right: 0px;
-    padding-left: 0px;
 }
 
 /*LOCATIONS SECTION*/
@@ -92,24 +82,12 @@ p#locationSubText {
     margin-right: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.row.location1.col-xs-12 col-sm-7 col-md-7 col-lg-7 {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.row.location1.col-xs-12 col-sm-5 col-md-5 col-lg-5 {
-    padding-left: 50px;
-    padding-right: 0px;
-
+    padding-left: 125px;
+    padding-right: 46.25px;
 }
 
 #location1Image {
     width: 400px;
-    float: right;
 }
 
 .location1Button {
@@ -144,24 +122,13 @@ p#locationSubText {
     margin-right: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 125px;
+    padding-right: 46.25px;
     background-color:#474E5D;
-}
-
-.row.location2.col-xs-12 col-sm-5 col-md-5 col-lg-5 {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.row.location2.col-xs-12 col-sm-7 col-md-7 col-lg-7 {
-    padding-right: 0px;
-    padding-left: 0px;
 }
 
 #location2Image {
     width: 400px;
-    float: left;
 }
 
 #location2Text {
@@ -200,23 +167,12 @@ p#locationSubText {
     margin-right: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.row.location3.col-xs-12 col-sm-7 col-md-7 col-lg-7 {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.row.location3.col-xs-12 col-sm-5 col-md-5 col-lg-5 {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 125px;
+    padding-right: 46.25px;
 }
 
 #location3Image {
     width: 400px;
-    float: right;
 }
 
 .location3Button {
@@ -269,4 +225,364 @@ p#ammenitiesSubText {
 }
 
 /*AMMENITIES LIST*/
+
+/*AMMENITIES ROW 1*/
+
+.row.ammenities1 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ammenities1Figure1 {
+    background-image: url('Images/3b-348x348.jpg');
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 275px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ammenities1Button1 {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.ammenities1Button1:hover {
+    color:#FBFFFF;
+}
+
+.ammenities1Figure2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.ammenities1Button2 {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.ammenities1Button2:hover {
+    color:#FBFFFF;
+}
+
+.ammenities1Figure3 {
+    background-image: url('Images/42-348x348.jpg');
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 275px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ammenities1Button3 {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.ammenities1Button3:hover {
+    color:#FBFFFF;
+}
+
+/*AMMENITIES ROW 2*/
+
+.row.ammenities2 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ammenities2Figure1 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ammenities2Button1 {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.ammenities2Button1:hover {
+    color:#FBFFFF;
+}
+
+.ammenities2Figure2 {
+    background-image: url('Images/314-348x348.jpg');
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 275px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ammenities2Button2 {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.ammenities2Button2:hover {
+    color:#FBFFFF;
+}
+
+.ammenities2Figure3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.ammenities2Button3 {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.ammenities2Button3:hover {
+    color:#FBFFFF;
+}
+
+/*AMMENITIES ROW 3*/
+
+.row.ammenities3 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ammenities3Figure1 {
+        background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 275px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        text-align: center;
+}
+
+.ammenities3Button1 {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.ammenities3Button1:hover {
+    color:#FBFFFF;
+}
+
+.ammenities3Figure2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.ammenities3Button2 {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+3.ammenities3Button2:hover {
+    color:#FBFFFF;
+}
+
+.ammenities3Figure3 {
+    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 275px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.ammenities3Button3 {
+    background-color:#474E5D;
+    border: solid;
+    border-color:#969291;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    color:#FBFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.ammenities3Button3:hover {
+    color:#FBFFFF;
+}
+
 
