@@ -258,31 +258,25 @@ p#ammenitiesSubText {
     text-align: center;
 }
 
-.ammenities1Button1 {
-    background-color: #474E5D;
-    border: solid;
-    border-color: #969291;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
+.ammenities1Button1 { /*could not figure out how to center button vertically*/
+    background-color: rgba(128, 133, 128, 0.5);
+    border: none;
     color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
+    font-size: 18px;
     cursor: pointer;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-family: 'Bree Serif', serif;
 }
 
-    .ammenities1Button1:hover {
-        color: #FBFFFF;
-    }
+.ammenities1Button1:hover {
+    color: #FBFFFF;
+}
 
 .ammenities1Figure2 {
     padding-left: 0px;
@@ -322,7 +316,7 @@ p#ammenitiesSubText {
         color: #FBFFFF;
     }
 
-.ammenities1Figure3 {
+.ammenities1Figure3 { /*could not figure out how to center button vertically*/
     background-image: url('Images/42-348x348.jpg');
     background-size: cover;
     padding-left: 0px;
@@ -336,30 +330,24 @@ p#ammenitiesSubText {
 }
 
 .ammenities1Button3 {
-    background-color: #474E5D;
-    border: solid;
-    border-color: #969291;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
+    background-color: rgba(128, 133, 128, 0.5);
+    border: none;
     color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
+    font-size: 18px;
     cursor: pointer;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-family: 'Bree Serif', serif;
 }
 
-    .ammenities1Button3:hover {
-        color: #FBFFFF;
-    }
+.ammenities1Button3:hover {
+    color: #FBFFFF;
+}
 
 /*AMMENITIES ROW 2*/
 
@@ -419,31 +407,26 @@ p#ammenitiesSubText {
     text-align: center;
 }
 
-.ammenities2Button2 {
-    background-color: #474E5D;
-    border: solid;
-    border-color: #969291;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
+.ammenities2Button2 { /*could not figure out how to center button vertically*/
+    background-color: rgba(128, 133, 128, 0.5);
+    border: none;
     color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
+    font-size: 18px;
     cursor: pointer;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-family: 'Bree Serif', serif;
 }
 
-    .ammenities2Button2:hover {
-        color: #FBFFFF;
-    }
+.ammenities2Button2:hover {
+    color: #FBFFFF;
+
+}
 
 .ammenities2Figure3 {
     padding-left: 0px;
@@ -479,9 +462,9 @@ p#ammenitiesSubText {
     font-family: 'Bree Serif', serif;
 }
 
-    .ammenities2Button3:hover {
-        color: #FBFFFF;
-    }
+.ammenities2Button3:hover {
+    color: #FBFFFF;
+}
 
 /*AMMENITIES ROW 3*/
 
@@ -503,25 +486,19 @@ p#ammenitiesSubText {
     text-align: center;
 }
 
-.ammenities3Button1 {
-    background-color: #474E5D;
-    border: solid;
-    border-color: #969291;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
+.ammenities3Button1 { /*could not figure out how to center button vertically*/
+    background-color: rgba(128, 133, 128, 0.5);
+    border: none;
     color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
+    font-size: 18px;
     cursor: pointer;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-family: 'Bree Serif', serif;
 }
 
@@ -580,25 +557,18 @@ p#ammenitiesSubText {
     margin-bottom: 40px;
 }
 
-.ammenities3Button3 {
-    background-color: #474E5D;
-    border: solid;
-    border-color: #969291;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
+.ammenities3Button3 { /*could not figure out how to center button vertically*/
+    background-color: rgba(128, 133, 128, 0.5);
     color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
+    font-size: 18px;
     cursor: pointer;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-family: 'Bree Serif', serif;
 }
 
