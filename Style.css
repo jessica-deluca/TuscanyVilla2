@@ -1,22 +1,24 @@
 ﻿/*NAVBAR STYLING*/
 
 #logoIMG {
-    width:90px;
-    margin-top:5px;
-    margin-bottom:5px;
+    width: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 nav#navvy.navbar.navbar-static-top {
-    margin-bottom:0px;
-    background-color:#474E5D;
+    margin-bottom: 0px;
+    background-color: #474E5D;
 }
 
 #navvy a {
-    color:#FBFFFF;
+    color: #FBFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
 }
 
 button.navbar-toggle {
-    border:1px solid #FBFFFF;
+    border: 1px solid #FBFFFF;
 }
 
 span.icon-bar {
@@ -29,19 +31,20 @@ span.icon-bar {
     background-image: url('Images/tuscany-villas-sant-anna.jpg');
     background-size: cover;
     margin-bottom: 0px;
-    padding-bottom: 196px;/*when I put padding here, the image is not fully responsive when small; when i remove padding, the entire image does not show in large screen sizes???*/
+    padding-bottom: 196px; /*when I put padding here, the image is not fully responsive when small; when i remove padding, the entire image does not show in large screen sizes???*/
 }
 
 h1#headerText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: 'Bree Serif', serif;
 }
 
 p#headerSubText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-bottom: 0px;
 }
 
@@ -56,23 +59,26 @@ p#headerSubText {
 /*LOCATIONS HEADER*/
 
 .locationHeader {
-    background-color:#474E5D;
+    background-color: #474E5D;
     padding-top: 30px;
 }
 
 h1#locationHeaderText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-top: 0px;
     margin-bottom: 10px;
+    font-family: 'Bree Serif', serif;
 }
 
 p#locationSubText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-bottom: 0px;
     border-bottom-width: 30px;
     padding-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
 }
 
 /*LOCATION 1*/
@@ -91,14 +97,14 @@ p#locationSubText {
 }
 
 .location1Button {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -109,11 +115,12 @@ p#locationSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
-.location1Button:hover {
-    color:#FBFFFF;
-}
+    .location1Button:hover {
+        color: #FBFFFF;
+    }
 
 /*LOCATION 2*/
 
@@ -124,7 +131,7 @@ p#locationSubText {
     padding-bottom: 40px;
     padding-left: 125px;
     padding-right: 46.25px;
-    background-color:#474E5D;
+    background-color: #474E5D;
 }
 
 #location2Image {
@@ -132,18 +139,18 @@ p#locationSubText {
 }
 
 #location2Text {
-    color:#FBFFFF;
+    color: #FBFFFF;
 }
 
 .location2Button {
-    background-color:#FBFFFF;
+    background-color: #FBFFFF;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#474E5D;
+    color: #474E5D;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -154,11 +161,12 @@ p#locationSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
-.location2Button:hover {
-    color:#474E5D;
-}
+    .location2Button:hover {
+        color: #474E5D;
+    }
 
 /*LOCATION 3*/
 
@@ -176,14 +184,14 @@ p#locationSubText {
 }
 
 .location3Button {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -194,34 +202,38 @@ p#locationSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
-.location3Button:hover {
-    color:#FBFFFF;
-}
+    .location3Button:hover {
+        color: #FBFFFF;
+    }
 
 /*AMMENITIES SECTION*/
 
 /*AMMENITIES HEADER*/
 
 .ammenitiesHeader {
-    background-color:#474E5D;
+    background-color: #474E5D;
     padding-top: 30px;
 }
 
 h1#ammenitiesHeaderText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-top: 0px;
     margin-bottom: 10px;
+    font-family: 'Bree Serif', serif;
 }
 
 p#ammenitiesSubText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-bottom: 0px;
     border-bottom-width: 30px;
     padding-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
 }
 
 /*AMMENITIES LIST*/
@@ -247,14 +259,14 @@ p#ammenitiesSubText {
 }
 
 .ammenities1Button1 {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -265,11 +277,12 @@ p#ammenitiesSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
-.ammenities1Button1:hover {
-    color:#FBFFFF;
-}
+    .ammenities1Button1:hover {
+        color: #FBFFFF;
+    }
 
 .ammenities1Figure2 {
     padding-left: 0px;
@@ -284,14 +297,14 @@ p#ammenitiesSubText {
 }
 
 .ammenities1Button2 {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -302,11 +315,12 @@ p#ammenitiesSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
-.ammenities1Button2:hover {
-    color:#FBFFFF;
-}
+    .ammenities1Button2:hover {
+        color: #FBFFFF;
+    }
 
 .ammenities1Figure3 {
     background-image: url('Images/42-348x348.jpg');
@@ -322,14 +336,14 @@ p#ammenitiesSubText {
 }
 
 .ammenities1Button3 {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -340,11 +354,12 @@ p#ammenitiesSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
-.ammenities1Button3:hover {
-    color:#FBFFFF;
-}
+    .ammenities1Button3:hover {
+        color: #FBFFFF;
+    }
 
 /*AMMENITIES ROW 2*/
 
@@ -366,14 +381,14 @@ p#ammenitiesSubText {
 }
 
 .ammenities2Button1 {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -384,11 +399,12 @@ p#ammenitiesSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
-.ammenities2Button1:hover {
-    color:#FBFFFF;
-}
+    .ammenities2Button1:hover {
+        color: #FBFFFF;
+    }
 
 .ammenities2Figure2 {
     background-image: url('Images/314-348x348.jpg');
@@ -404,14 +420,14 @@ p#ammenitiesSubText {
 }
 
 .ammenities2Button2 {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -422,11 +438,12 @@ p#ammenitiesSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
-.ammenities2Button2:hover {
-    color:#FBFFFF;
-}
+    .ammenities2Button2:hover {
+        color: #FBFFFF;
+    }
 
 .ammenities2Figure3 {
     padding-left: 0px;
@@ -441,14 +458,14 @@ p#ammenitiesSubText {
 }
 
 .ammenities2Button3 {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -459,11 +476,12 @@ p#ammenitiesSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
-.ammenities2Button3:hover {
-    color:#FBFFFF;
-}
+    .ammenities2Button3:hover {
+        color: #FBFFFF;
+    }
 
 /*AMMENITIES ROW 3*/
 
@@ -473,27 +491,27 @@ p#ammenitiesSubText {
 }
 
 .ammenities3Figure1 {
-        background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
-        background-size: cover;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-bottom: 275px;
-        margin-top: 0px;
-        margin-bottom: 40px;
-        text-align: center;
+    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 275px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .ammenities3Button1 {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -504,10 +522,11 @@ p#ammenitiesSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
 .ammenities3Button1:hover {
-    color:#FBFFFF;
+    color: #FBFFFF;
 }
 
 .ammenities3Figure2 {
@@ -523,14 +542,14 @@ p#ammenitiesSubText {
 }
 
 .ammenities3Button2 {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -541,10 +560,11 @@ p#ammenitiesSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
 3.ammenities3Button2:hover {
-    color:#FBFFFF;
+    color: #FBFFFF;
 }
 
 .ammenities3Figure3 {
@@ -561,14 +581,14 @@ p#ammenitiesSubText {
 }
 
 .ammenities3Button3 {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -579,10 +599,12 @@ p#ammenitiesSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    font-family: 'Bree Serif', serif;
 }
 
 .ammenities3Button3:hover {
-    color:#FBFFFF;
+    color: #FBFFFF;
+
 }
 
 /*REVIEWS SECTION*/
@@ -590,37 +612,39 @@ p#ammenitiesSubText {
 /*REVIEWS HEADER*/
 
 .reviewsHeader {
-    background-color:#474E5D;
+    background-color: #474E5D;
     padding-top: 30px;
-
 }
 
 h1#reviewsHeaderText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-top: 0px;
     margin-bottom: 10px;
+    font-family: 'Bree Serif', serif;
 }
 
 p#reviewsSubText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-bottom: 0px;
     border-bottom-width: 30px;
     padding-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
 }
 
 /*CAROUSEL*/
 
 #quote {
-    color:#000000;
-    font-style:italic;
-    text-align:center;
+    color: #000000;
+    font-style: italic;
+    text-align: center;
 }
 
 #quoteReference {
-    color:#000000;
-    text-align:center;
+    color: #000000;
+    text-align: center;
 }
 
 .item {
@@ -631,19 +655,19 @@ p#reviewsSubText {
 .carousel-indicators li {
     display: inline-block;
     background-color: #474E5D;
-    box-shadow: #474E5D;    
+    box-shadow: #474E5D;
 }
 
 .carousel-indicators .active {
-    background-color:#474E5D;
+    background-color: #474E5D;
 }
 
 .glyphicon-chevron-left {
-    color:#474E5D;
+    color: #474E5D;
 }
 
 .glyphicon-chevron-right {
-    color:#474E5D;
+    color: #474E5D;
 }
 
 /*CONTACT SECTION*/
@@ -651,24 +675,26 @@ p#reviewsSubText {
 /*CONTACT HEADER*/
 
 .contactHeader {
-    background-color:#474E5D;
+    background-color: #474E5D;
     padding-top: 30px;
-
 }
 
 h1#contactHeaderText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-top: 0px;
     margin-bottom: 10px;
+    font-family: 'Bree Serif', serif;
 }
 
 p#contactSubText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-bottom: 0px;
     border-bottom-width: 30px;
     padding-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
 }
 
 /*CONTACT INFO & FORM SECTION*/
@@ -681,26 +707,26 @@ p#contactSubText {
 }
 
 .glyphicon-map-marker {
-    color:#474E5D;
+    color: #474E5D;
 }
 
 .glyphicon-phone {
-    color:#474E5D;
+    color: #474E5D;
 }
 
 .glyphicon-envelope {
-    color:#474E5D;
+    color: #474E5D;
 }
 
 .submitForm {
-    background-color:#474E5D;
+    background-color: #474E5D;
     border: solid;
-    border-color:#969291;
+    border-color: #969291;
     border-top-width: 1px;
     border-right-width: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
-    color:#FBFFFF;
+    color: #FBFFFF;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -711,25 +737,28 @@ p#contactSubText {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 25px;
-    float:right;
+    float: right;
+    font-family: 'Bree Serif', serif;
 }
 
 .submitForm:hover {
-    color:#FBFFFF;
+    color: #FBFFFF;
 }
 
 /*FOOTER SECTION*/
 
 .footer {
-    background-color:#474E5D;
+    background-color: #474E5D;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 p#footerText {
-    text-align:center;
-    color:#FBFFFF;
+    text-align: center;
+    color: #FBFFFF;
     margin-bottom: 0px;
     border-bottom-width: 30px;
     padding-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
 }
